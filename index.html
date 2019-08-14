@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>SET THE TITLE!!!</title>
-	<!--Might be good to link bootstrap here-->
+	<title>Rock, Paper, Scissors Game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-	<!--write html below this line-->
-	
-	
-	<!--write html above this line-->
-	<!--the following line is used to link your javascript file.-->
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>Rocks, Paper, Scissors Game</h1>
+				<h3>Test yours skills against the computer.</h3>
+				<h5>Choose a button and discover if you chose well...</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<button class="btn btn-outline-dark btn-lg" onclick='play("Rock")'>Rock</button>
+				<button class="btn btn-outline-dark btn-lg" onclick='play("Paper")'>Paper</button>
+				<button class="btn btn-outline-dark btn-lg" onclick='play("Scissors")'>Scissors</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<p id="winorlose">How well did you choose?</p>
+			</div>
+		</div>
+	</div>
+
+
 	<script src="app.js"></script>
 </body>
+
 </html>
