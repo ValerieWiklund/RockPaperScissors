@@ -1,5 +1,5 @@
 let randomChoice = "";
-let response = " ";
+let response = "";
 
 
 
@@ -16,15 +16,10 @@ function randomNumber() {
 }
 
 
-// function draw() {
-//   let reply = document.querySelector("#winorlose");
-//   reply.textContent = response;
-// }
-
-
-
-
-
+function draw() {
+  let reply = document.querySelector("#winorlose");
+  reply.textContent = response;
+}
 
 
 
@@ -57,10 +52,6 @@ function play(playersChoice) {
   draw();
 }
 
-function draw() {
-  let reply = document.querySelector("#winorlose");
-  reply.textContent = response;
-}
 
 
 
